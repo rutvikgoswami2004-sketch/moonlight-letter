@@ -325,3 +325,45 @@ transition:1s;
 opacity:.9;
 
 }
+/* ===== PHASE 3 - LETTER PAPER ===== */
+
+#paper{
+    position:absolute;
+    inset:10px;
+    background:#fffdf7;
+    border-radius:8px;
+    padding:24px;
+    overflow:hidden;
+    color:#333;
+    font-family:Georgia, serif;
+    font-size:20px;
+    line-height:1.8;
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+#typed{
+    white-space:pre-wrap;
+}
+
+.sparkle{
+    position:absolute;
+    width:4px;
+    height:4px;
+    background:#ffe88a;
+    border-radius:50%;
+    animation:float 4s linear infinite;
+}
+
+@keyframes float{
+    from{
+        transform:translateY(20px);
+        opacity:0;
+    }
+    30%{
+        opacity:1;
+    }
+    to{
+        transform:translateY(-120px);
+        opacity:0;
+    }
+}
