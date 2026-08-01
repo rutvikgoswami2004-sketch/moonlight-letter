@@ -5,51 +5,102 @@
 
 <meta charset="UTF-8">
 
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>A Little Letter</title>
+<title>Moonlight Letter</title>
 
 <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-<div id="sky"></div>
+
+<!-- ==========================
+     NIGHT SKY
+========================== -->
+
+<div id="sky">
+
+<div id="moonGlow"></div>
 
 <div id="moon"></div>
 
+<div id="cloudLayer"></div>
+
+</div>
+
+<!-- ==========================
+     LAKE
+========================== -->
+
+<div id="lake">
+
 <div id="reflection"></div>
 
-<div id="lake"></div>
+<div id="waterGlow"></div>
+
+</div>
+
+<!-- ==========================
+     ENVELOPE SCENE
+========================== -->
+
+<div id="scene">
 
 <div id="envelope">
 
 <div id="letter">
 
-    <div id="paper">
+<div id="paper">
 
-        <div id="typed"></div>
-
-    </div>
-
-    <audio id="bgMusic" loop>
-
-        <source src="assets/music.mp3" type="audio/mpeg">
-
-    </audio>
+<div id="typed"></div>
 
 </div>
 
-<div id="cover"></div>
+</div>
+
+<div id="flap"></div>
+
+<div id="front"></div>
 
 <div id="seal">
-A
+
+<span>A</span>
+
 </div>
 
 </div>
+
+</div>
+
+<!-- ==========================
+     FINAL MESSAGE
+========================== -->
+
+<div id="ending">
+
+<h1>Happy Friendship Day 💛</h1>
+
+<p>Some friendships become quieter with time…</p>
+
+<p>But they never lose their meaning.</p>
+
+<h2>— Rutvik</h2>
+
+</div>
+
+<!-- ==========================
+     MUSIC
+========================== -->
+
+<audio id="bgMusic" loop>
+
+<source src="assets/music.mp3" type="audio/mpeg">
+
+</audio>
 
 <script src="script.js"></script>
+
 </body>
 
 </html>
