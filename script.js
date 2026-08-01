@@ -1,14 +1,12 @@
-const sky = document.getElementById("sky");
-
-// Create Stars
+const sky=document.getElementById("sky");
 
 for(let i=0;i<300;i++){
 
-const star=document.createElement("div");
+let star=document.createElement("div");
 
 star.className="star";
 
-const size=Math.random()*3;
+let size=Math.random()*3;
 
 star.style.width=size+"px";
 
@@ -23,3 +21,11 @@ star.style.animationDelay=Math.random()*2+"s";
 sky.appendChild(star);
 
 }
+
+const envelope=document.getElementById("envelope");
+
+envelope.onclick=()=>{
+
+envelope.classList.toggle("open");
+
+};
